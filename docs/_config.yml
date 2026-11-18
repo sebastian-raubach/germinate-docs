@@ -23,3 +23,14 @@ nav_pages:
   - title: Visualizations & Export
     url: /docs/visualizations/
     description: Interactive maps, pedigree trees, trait distributions, and Flapjack exports.
+
+funders:
+  - name: The James Hutton Institute
+    logo: /assets/images/funders/hutton.svg
+    url: https://www.hutton.ac.uk/
+  - name: BBSRC
+    logo: /assets/images/funders/bbsrc.svg
+    url: https://www.ukri.org/councils/bbsrc/
+  - name: Crop Trust
+    logo: /assets/images/funders/crop-trust.svg
+    url: https://www.croptrust.org/

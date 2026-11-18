@@ -17,3 +17,17 @@ title: Home
     </a>
   {% endfor %}
 </div>
+
+
+{% if site.funders %}
+<section class="funders-section">
+  <h2>Funders & Partners</h2>
+  <div class="funder-grid">
+    {% for funder in site.funders %}
+      <a href="{{ funder.url }}" target="_blank" rel="noopener" class="funder-item" title="{{ funder.name }}">
+        <img src="{{ funder.logo | relative_url }}" alt="{{ funder.name }}">
+      </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

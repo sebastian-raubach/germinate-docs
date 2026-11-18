@@ -15,3 +15,6 @@ Germinate provides built-in visual analytics to explore relationships across pas
 ## Export Formats
 
 Filtered datasets can be exported in standard formats including **CSV**, **Excel**, **MCPD**, and **Flapjack** project files for downstream statistical analysis in R or Python.
+
+![Germinate Geographic Map View]({{ '/assets/images/test.png' | relative_url }})
+<p class="image-caption">Figure 1: Interactive passport data distribution map.</p>
