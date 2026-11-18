@@ -1,0 +1,25 @@
+title: Germinate Documentation
+description: Open-source plant genetic resources database platform documentation.
+baseurl: "" # Leave empty if using a custom domain or user.github.io, otherwise "/your-repo-name"
+url: ""     # Your GitHub Pages URL
+
+markdown: kramdown
+permalink: pretty
+
+# Navigation items used in the header and landing page
+nav_pages:
+  - title: Germplasm & Passport Data
+    url: /docs/germplasm/
+    description: Managing accessions, taxonomy, biological status, and geographic origins.
+  - title: Phenotypic & Trial Data
+    url: /docs/phenotypes/
+    description: Recording field trials, trait definitions, observations, and environmental metrics.
+  - title: Genotypic & Marker Data
+    url: /docs/genotypes/
+    description: Storing SNP matrices, genetic maps, alleles, and molecular marker datasets.
+  - title: Data Import & Templates
+    url: /docs/data-import/
+    description: Using Germinate data templates, validation tools, and BrAPI integration.
+  - title: Visualizations & Export
+    url: /docs/visualizations/
+    description: Interactive maps, pedigree trees, trait distributions, and Flapjack exports.

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="{{ '/' | relative_url }}" class="brand">
+        <span class="brand-icon">🌱</span>
+        <span class="brand-text">Germinate <small>Docs</small></span>
+      </a>
+      <nav class="top-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/docs/germplasm/' | relative_url }}">Germplasm</a>
+        <a href="{{ '/docs/phenotypes/' | relative_url }}">Phenotypes</a>
+        <a href="{{ '/docs/genotypes/' | relative_url }}">Genotypes</a>
+        <a href="{{ '/docs/data-import/' | relative_url }}">Import</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Germinate Documentation &bull; Built for Plant Genetic Resources</p>
+    </div>
+  </footer>
+</body>
+</html>

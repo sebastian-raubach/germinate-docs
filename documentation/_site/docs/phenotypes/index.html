@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phenotypic & Trial Data | Germinate Documentation</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand">
+        <span class="brand-icon">🌱</span>
+        <span class="brand-text">Germinate <small>Docs</small></span>
+      </a>
+      <nav class="top-nav">
+        <a href="/">Home</a>
+        <a href="/docs/germplasm/">Germplasm</a>
+        <a href="/docs/phenotypes/">Phenotypes</a>
+        <a href="/docs/genotypes/">Genotypes</a>
+        <a href="/docs/data-import/">Import</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <div class="doc-layout">
+  <aside class="doc-sidebar">
+    <h3>Documentation</h3>
+    <ul>
+      <li><a href="/">Overview</a></li>
+      
+        <li>
+          <a href="/docs/germplasm/" class="">
+            Germplasm & Passport Data
+          </a>
+        </li>
+      
+        <li>
+          <a href="/docs/phenotypes/" class="active">
+            Phenotypic & Trial Data
+          </a>
+        </li>
+      
+        <li>
+          <a href="/docs/genotypes/" class="">
+            Genotypic & Marker Data
+          </a>
+        </li>
+      
+        <li>
+          <a href="/docs/data-import/" class="">
+            Data Import & Templates
+          </a>
+        </li>
+      
+        <li>
+          <a href="/docs/visualizations/" class="">
+            Visualizations & Export
+          </a>
+        </li>
+      
+    </ul>
+  </aside>
+
+  <article class="doc-body">
+    <h1>Phenotypic & Trial Data</h1>
+    
+      <p class="doc-subtitle">Organizing multi-environment field trials, traits, and observations.</p>
+    
+    <hr>
+    <p>Phenotypic data captures observable characteristics measured across field trials, glasshouses, or growth chambers.</p>
+
+<h2 id="data-hierarchy">Data Hierarchy</h2>
+
+<ul>
+  <li><strong>Datasets:</strong> Groupings of trial observations collected within a specific experiment or season.</li>
+  <li><strong>Locations:</strong> Geographic sites with latitude, longitude, elevation, and country metadata.</li>
+  <li><strong>Traits:</strong> Standardized definitions including trait name, short name, data type (<code class="language-plaintext highlighter-rouge">numeric</code>, <code class="language-plaintext highlighter-rouge">categorical</code>, <code class="language-plaintext highlighter-rouge">date</code>, <code class="language-plaintext highlighter-rouge">text</code>), and measurement units.</li>
+</ul>
+
+<h2 id="recording-observations">Recording Observations</h2>
+
+<p>Each observation links a <strong>Germplasm accession</strong>, a <strong>Trait</strong>, a <strong>Location</strong>, and a <strong>Timestamp</strong>. Germinate supports both raw plot-level measurements and summarized accession means.</p>
+
+  </article>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Germinate Documentation &bull; Built for Plant Genetic Resources</p>
+    </div>
+  </footer>
+</body>
+</html>
