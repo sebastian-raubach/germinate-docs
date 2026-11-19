@@ -27,7 +27,7 @@ Please also check the <a href="{{ '/docs/user/data-import' | relative_url }}">da
 
 ## How do I add my logo instead of the default logo?
 
-Germinate by default will include the James Hutton Institute logo in the left navigation menu. You can replace that logo with your institution logo by modifiying the `logo.svg` and `logo-horizontal.svg` files in the <a href="config.html">config folder</a>. 
+Germinate by default will include the James Hutton Institute logo in the left navigation menu. You can replace that logo with your institution logo by modifiying the `logo.svg` and `logo-horizontal.svg` files in the <a href="{{ '/docs/admin/configuration' | relative_url }}">config folder</a>. 
 
 ## How do I change the main color of the web interface?
 
@@ -44,7 +44,7 @@ Identify the row holding the text you wish to change, e.g.:
 ```  
 Change the text according to your requirements making sure it contains valid HTML code and double quotes are properly escaped using a backslash (``\``).
 
-Create a new `en_GB.json` file in your <a href="config.html">config folder</a> and place the changed property in it like this:
+Create a new `en_GB.json` file in your <a href="{{ '/docs/admin/configuration' | relative_url }}">config folder</a> and place the changed property in it like this:
 
 ```json
 {
@@ -58,8 +58,8 @@ Save the file and reload Germinate in your browser.
 
 We've seen how we can change the default English text, but how do we add a completely new language to the Germinate user interface?
 
-There is a small selection of translated Germinate texts available at https://github.com/germinateplatform/germinate-i18n.
-If one of them is what you are looking for, great! Save it into your <a href="config.html">config folder</a> and make adjustments to the text as seen before.
+There is a small selection of translated Germinate texts available at <https://github.com/germinateplatform/germinate-i18n>.
+If one of them is what you are looking for, great! Save it into your <a href="{{ '/docs/admin/configuration' | relative_url }}">config folder</a> and make adjustments to the text as seen before.
 
 If the language you are looking for is not available, then you can contribute to the Germinate Platform by providing a translation! Your translation will be made available on the GitHub repository and you will be given credit for your contribution!
 This way, others looking for the language that you provided will be able to get started more quickly.
@@ -71,5 +71,5 @@ To make the process of translating easier, get in touch with us and we can give 
 
 ## My question is not covered here...
 
-Please get in touch with us either via email (germinate@hutton.ac.uk) or via the GitHub issue trackers available at https://github.com/germinateplatform.
+Please get in touch with us either via email (<germinate@hutton.ac.uk>) or via the GitHub issue trackers available at <https://github.com/germinateplatform>.
 We're more than happy to help you get up and running with Germinate and any questions we receive may be added to this FAQ to help others!

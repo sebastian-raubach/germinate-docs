@@ -43,6 +43,9 @@ admin_pages:
   - title: Migration Information
     url: /docs/admin/migration/
     description: Any manual changes that need to be made between Germinate version updates.
+  - title: Germinate Command Line
+    url: /docs/admin/cli/
+    description: How to use the command line tools bundled with Germinate.
   - title: Frequently Asked Questions
     url: /docs/admin/faq/
     description: Answers to a list of questions that we often get about Germinate.

@@ -30,13 +30,15 @@
 }
 
 /* Default Links on Docs Pages */
-.doc-body a {
+.doc-body a,
+.prose-section a {
   color: var(--primary-main);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 
-.doc-body a:hover {
+.doc-body a:hover,
+.prose-section a:hover {
   color: var(--primary-dark);
 }
 

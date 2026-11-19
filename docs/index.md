@@ -8,6 +8,7 @@ title: Home
   <p>Explore guides, data schemas, and workflows for managing plant genetic resources, phenotypic trials, and genotypic datasets.</p>
 </section>
 
+<div class="prose-section" markdown="1">
 Germinate is an open source plant database infrastructure and application programming platform
 on which complex data from genetic resource collections can be stored, queried and visualized
 using common, reusable, programming components. Germinate utilises modern web and database
@@ -23,6 +24,7 @@ The single point of access for all background data on genetic resources collecti
 Germinate implements, provides a valuable digital curation resource as well as offering
 essential continuity on how new data is recorded and presented to researchers and breeders
 which brings focus and facilitates community building into research communities.
+</div>
 
 <h2>Core Functionality</h2>
 <div class="card-grid">
