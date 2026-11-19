@@ -3,6 +3,8 @@ layout: default
 ---
 <div class="doc-layout">
   <aside class="doc-sidebar">
+    {% include search-box.html %}
+
     <h3>User documentation</h3>
     <ul>
       {% for item in site.user_pages %}

@@ -6,7 +6,7 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
+<body data-search-url="{{ '/search.json' | relative_url }}">
   <header class="site-header">
     <div class="container header-inner">
       <a href="{{ '/' | relative_url }}" class="brand">
@@ -62,61 +62,90 @@
 </body>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const images = document.querySelectorAll(".doc-body img");
-    const modal = document.getElementById("imageModal");
-    const modalImg = document.getElementById("modalImage");
+  document.addEventListener('DOMContentLoaded', function () {
+    const images = document.querySelectorAll('.doc-body img')
+    const modal = document.getElementById('imageModal')
+    const modalImg = document.getElementById('modalImage')
 
     images.forEach(img => {
-      img.addEventListener("click", function () {
-        modal.style.display = "flex";
-        modalImg.src = this.src;
-      });
-    });
-  });
+      img.addEventListener('click', function () {
+        modal.style.display = 'flex'
+        modalImg.src = this.src
+      })
+    })
+  })
 
   function closeModal() {
-    document.getElementById("imageModal").style.display = "none";
+    document.getElementById('imageModal').style.display = 'none'
   }
 
+  function closeModal() {
+    const modal = document.getElementById('imageModal')
+    if (modal) {
+      modal.style.display = 'none'
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const images = document.querySelectorAll('.doc-body img')
+    const modal = document.getElementById('imageModal')
+    const modalImg = document.getElementById('modalImage')
+
+    images.forEach(function (img) {
+      img.addEventListener('click', function () {
+        if (!modal || !modalImg) return
+        modal.style.display = 'flex'
+        modalImg.src = this.src
+      })
+    })
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && modal && modal.style.display === 'flex') {
+        closeModal()
+      }
+    })
+  })
+
   function updateToggleButton(theme) {
-    const toggleButton = document.getElementById("theme-toggle")
+    const toggleButton = document.getElementById('theme-toggle')
     if (!toggleButton) return
 
-    const isDark = theme === "dark"
-    const labelEl = toggleButton.querySelector(".theme-toggle-label")
+    const isDark = theme === 'dark'
+    const labelEl = toggleButton.querySelector('.theme-toggle-label')
 
-    toggleButton.setAttribute("aria-pressed", String(isDark))
+    toggleButton.setAttribute('aria-pressed', String(isDark))
     toggleButton.setAttribute(
-      "aria-label",
-      isDark ? "Switch to light mode" : "Switch to dark mode"
+      'aria-label',
+      isDark ? 'Switch to light mode' : 'Switch to dark mode'
     )
 
     if (labelEl) {
-      labelEl.textContent = isDark ? "Light" : "Dark"
+      labelEl.textContent = isDark ? 'Light' : 'Dark'
     }
   }
 
   function applyPageTheme(theme) {
-    document.documentElement.setAttribute("data-theme", theme)
-    localStorage.setItem("page-theme", theme)
+    document.documentElement.setAttribute('data-theme', theme)
+    localStorage.setItem('page-theme', theme)
     updateToggleButton(theme)
   }
 
   function initThemeSwitcher() {
-    const savedTheme = localStorage.getItem("page-theme") || "light"
+    const savedTheme = localStorage.getItem('page-theme') || 'light'
     applyPageTheme(savedTheme)
 
-    const toggleButton = document.getElementById("theme-toggle")
+    const toggleButton = document.getElementById('theme-toggle')
     if (!toggleButton) return
 
-    toggleButton.addEventListener("click", function () {
-      const currentTheme = document.documentElement.getAttribute("data-theme") || "light"
-      const nextTheme = currentTheme === "dark" ? "light" : "dark"
+    toggleButton.addEventListener('click', function () {
+      const currentTheme = document.documentElement.getAttribute('data-theme') || 'light'
+      const nextTheme = currentTheme === 'dark' ? 'light' : 'dark'
       applyPageTheme(nextTheme)
     })
   }
 
   initThemeSwitcher()
 </script>
+
+<script src="{{ '/assets/js/search.js' | relative_url }}"></script>
 </html>

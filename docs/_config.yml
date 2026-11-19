@@ -14,15 +14,21 @@ kramdown:
 
 # Navigation items used in the header and landing page
 user_pages:
+  - title: User interface & Basics
+    url: /docs/user/ui/
+    description: Use the Germinate UI, browse and search data, mark interesting items.
   - title: Germplasm & Passport Data
     url: /docs/user/germplasm/
     description: Managing accessions, taxonomy, biological status, and geographic origins.
   - title: Phenotypic & Trial Data
     url: /docs/user/phenotypes/
-    description: Recording field trials, trait definitions, observations, and environmental metrics.
+    description: Recording field trials, trait definitions, and observations metrics.
   - title: Genotypic & Marker Data
     url: /docs/user/genotypes/
     description: Storing SNP matrices, genetic maps, alleles, and molecular marker datasets.
+  - title: Environmental & Climate Data
+    url: /docs/user/environment/
+    description: Managing environmental, climatic definitions, and measurement values.
   - title: Data Import & Templates
     url: /docs/user/data-import/
     description: Using Germinate data templates, validation tools, and BrAPI integration.
@@ -40,6 +46,9 @@ admin_pages:
   - title: Germinate Configuration
     url: /docs/admin/configuration/
     description: All configuration options for Germinate.
+  - title: Germinate Settings Page
+    url: /docs/admin/settings/
+    description: Germinate's user interface for making changes.
   - title: Migration Information
     url: /docs/admin/migration/
     description: Any manual changes that need to be made between Germinate version updates.
@@ -54,9 +63,71 @@ funders:
   - name: The James Hutton Institute
     logo: /assets/images/funders/hutton.svg
     url: https://www.hutton.ac.uk/
-  - name: BBSRC
-    logo: /assets/images/funders/bbsrc.svg
-    url: https://www.ukri.org/councils/bbsrc/
   - name: Crop Trust
     logo: /assets/images/funders/crop-trust.svg
     url: https://www.croptrust.org/
+  - name: BOLD Project
+    logo: /assets/images/funders/bold.svg
+    url: https://bold.croptrust.org/
+  - name: Crop Wild Relatives Project
+    logo: /assets/images/funders/cwr.svg
+    url: https://cwr.croptrust.org/
+  - name: Norway
+    logo: /assets/images/funders/norway.svg
+    url: https://www.norway.no/
+  - name: Norwegian Ministry of Foreign Affairs
+    logo: /assets/images/funders/norwegian-ministry-of-foreign-affairs.svg
+    url: https://www.regjeringen.no/en/dep/ud/id833/
+  - name: CIMMYT
+    logo: /assets/images/funders/cimmyt.svg
+    url: https://www.cimmyt.org/
+  - name: University of Dundee
+    logo: /assets/images/funders/uod.svg
+    url: https://www.dundee.ac.uk/
+  - name: UK Research and Innovation
+    logo: /assets/images/funders/ukri.svg
+    url: https://www.ukri.org/
+  - name: Biotechnology and Biological Sciences Research Council
+    logo: /assets/images/funders/bbsrc.svg
+    url: https://www.ukri.org/councils/bbsrc/
+  - name: UKRI Innovate UK
+    logo: /assets/images/funders/innovate-uk.svg
+    url: https://www.gov.uk/government/organisations/innovate-uk
+  - name: Rural & Environment Science & Analytical Services
+    logo: /assets/images/funders/resas.svg
+  - name: The Scottish Government
+    logo: /assets/images/funders/scottish-government.svg
+    url: https://www.gov.scot/
+  - name: Scottish Environment, Food and Agriculture Research Institutes
+    logo: /assets/images/funders/sefari.svg
+    url: https://sefari.scot/
+  - name: James Hutton Institute Scientific Services
+    logo: /assets/images/funders/jhiss.svg
+    url: https://www.hutton.ac.uk/scientific-services/
+  - name: International Barley Hub
+    logo: /assets/images/funders/ibh.svg
+    url: https://www.barleyhub.org/
+  - name: CRP Maize
+    logo: /assets/images/funders/crp-maize.svg
+    url: https://maize.org/
+  - name: CRP Wheat
+    logo: /assets/images/funders/crp-wheat.svg
+    url: https://wheat.org/
+  - name: International Wheat Yield Partnership
+    logo: /assets/images/funders/iwyp.svg
+    url: https://iwyp.org/
+  - name: Secretaría de Agricultura y Desarrollo Rural
+    logo: /assets/images/funders/sader.svg
+    url: https://www.gob.mx/agricultura
+  - name: DivSeek International Network
+    logo: /assets/images/funders/divseek.png
+    url: https://divseekintl.org/
+  - name: European Union
+    logo: /assets/images/funders/eu.svg
+    url: https://europa.eu/
+  - name: Department for Environment, Food and Rural Affairs
+    logo: /assets/images/funders/defra.svg
+    url: https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs
+  - name: Templeton World Charity Foundation
+    logo: /assets/images/funders/templeton.svg
+    url: https://www.templetonworldcharity.org/

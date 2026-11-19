@@ -1,0 +1,76 @@
+---
+layout: doc
+title: User interface & Basics
+subtitle: Use the Germinate UI, browse and search data, mark interesting items.
+---
+
+## User Interface Overview
+
+![Home Screen]({{ '/assets/images/ui/home.png' | relative_url }})
+<p class="image-caption">Home Screen: The landing page of Germinate.</p>
+
+## Main Navigation
+
+Germinate's main navigation sits along the left side of the screen or is hidden away behind a button toggle on smaller screens. It contains a hierarchical structure with links to all the data pages available on Germinate. Thematically, the `Browse` item is broken down into the different data types that Germinate supports with each offering a selection of different sub-pages.
+
+## Top menu
+
+Additionally, there is a menu along the top of the screen. This menu contains useful functionalities like a global search, marked item indicator, language toggle, theme toggle, user menu and import/export job toggle.
+
+## Global Search
+TODO
+
+## Tables
+
+Tables play a central role on the Germinate user interface - they are one of the main ways in which data is displayed and made explorable. To facilitate this, tables on Germinate have to offer a large number of functionalities including searching, sorting, filtering, selection, and downloading.
+
+![Germplasm Data Table]({{ '/assets/images/ui/table.png' | relative_url }})
+<p class="image-caption">Germplasm Data Table: An example of a table showing data on the Germinate user interface.</p>
+
+### Column Selection
+
+Tables often show a large number of columns to show as much information about the entity in question. The columns that are shown by default are pre-defined by the Germinate administrators. However, each user can adjust the visible columns per table by using a drop down menu and toggling elements in that list.
+
+### Table Filtering
+
+All tables on Germinate allow you to apply filtering conditions to any of the columns you see. These conditions can be combined using the `All` or `Some` toggles - either for the overall condition or even within condition groups - which allows for very powerful combinations.
+
+![Germplasm Data Table Filter]({{ '/assets/images/ui/table-filter.png' | relative_url }})
+<p class="image-caption">Germplasm Data Table Filter: Filtering tables can be done with complex combinations of conditions.</p>
+
+The example shown in the figure above combines two different filter groups:
+
+- **Taxonomy filtering**: In this case *both* conditions on `Genus` and `Species` have to match.
+- **Germplasm name filtering**: The germplasm name has to be *either* `Sebastian` (exact) or start with the letter `O`.
+
+The overall condition combines these two groups with an `All` condition meaning *both* have to be true. The result is shown below and contains only *`Hordeum vulgare`* germplasm which is either called `Sebastian` or where the name starts with an `O`.
+
+![Germplasm Data Table Filter Result]({{ '/assets/images/ui/table-filter-result.png' | relative_url }})
+<p class="image-caption">Germplasm Data Table Filter Result: The table shows results for the filter conditions.</p>
+
+### Quick Search
+
+In addition to the complex filtering, many tables on Germinate offer a quick search box at the top of the table which automatically applies the filter term to a pre-defined set of columns. 
+
+![Germplasm Data Table Quick Search]({{ '/assets/images/ui/table-quick-search.png' | relative_url }})
+<p class="image-caption">Germplasm Data Table Quick Search: An example of using the quick search field to search for `yield` traits.</p>
+
+Quick searching a table means filtering multiple columns which may contain the search term. Germinate uses different combinations of columns to achieve this per data type. For this trait example, the actual filter that is automatically assembled for the quick search is shown below.
+
+![Germplasm Data Table Quick Search Filter]({{ '/assets/images/ui/table-quick-search-filter.png' | relative_url }})
+<p class="image-caption">Germplasm Data Table Quick Search Filter: The actual filter that's automatically put together.</p>
+
+## Visualizations
+
+Another big part of Germinate's functionality are various kinds of visualizations. These come in various shapes and forms, but they share some very common principles:
+
+- Interactivity.
+- Allow download in SVG and/or PNG format.
+- Allow download of underlying data file.
+- Allow changing of colour scheme.
+- Some of them allow marking/unmarking items.
+
+All of these options can be accessed from the overflow menu icon in the top right corner: `⋮`
+
+![Visualization Drop Down]({{ '/assets/images/ui/visualization-dropdown.png' | relative_url }})
+<p class="image-caption">Visualization Drop Down: Options for interacting with charts including downloads, changing colours and marking items.</p>

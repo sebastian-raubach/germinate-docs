@@ -4,9 +4,21 @@ title: Home
 ---
 
 <section class="hero">
-  <h1>Germinate Documentation</h1>
-  <p>Explore guides, data schemas, and workflows for managing plant genetic resources, phenotypic trials, and genotypic datasets.</p>
+  <div class="hero-content">
+    <h1>Germinate Documentation</h1>
+    <p>Explore guides, data schemas, and workflows for managing plant genetic resources, phenotypic trials, and genotypic datasets.</p>
+  </div>
+
+  <div class="hero-media">
+    <img
+      src="{{ '/assets/images/germinate-square.svg' | relative_url }}"
+      alt="Germinate logo"
+      class="hero-logo"
+    >
+  </div>
 </section>
+
+{% include search-box.html %}
 
 <div class="prose-section" markdown="1">
 Germinate is an open source plant database infrastructure and application programming platform
@@ -56,5 +68,9 @@ which brings focus and facilitates community building into research communities.
       </a>
     {% endfor %}
   </div>
+
+  <p class="prose-section">
+    This work is part of the Crop Trust <a href="https://bold.croptrust.org/">BOLD</a> project, which is generously funded by the Government of Norway. BOLD (Biodiversity for Opportunities, Livelihoods and Development) is strengthening food and nutrition security worldwide by supporting the conservation and use of crop diversity.
+  </p>
 </section>
 {% endif %}
