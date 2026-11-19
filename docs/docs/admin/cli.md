@@ -12,19 +12,19 @@ Currently, the CLI offers options for:
 
 - Data import
   - Import of Germinate data templates for
-    - <a href="cli/Germinate-import-mcpd.html">Germplasm MCPD</a>
-    - <a href="cli/Germinate-import-trial.html">Trials data</a>
+    - <a href="{{ '/docs/cli/Germinate-import-mcpd.html' | relative_url }}">Germplasm MCPD</a>
+    - <a href="{{ '/docs/cli/Germinate-import-trial.html' | relative_url }}">Trials data</a>
     - Genotypic data
-      - <a href="cli/Germinate-import-genotype-excel.html">Excel format</a>
-      - <a href="cli/Germinate-import-genotype-excel.html">Excel format transposed</a>
-      - <a href="cli/Germinate-import-genotype-hapmap.html">Hapmap format</a>
-      - <a href="cli/Germinate-import-genotype-flat.html">Flat text file format</a>
-    - <a href="cli/Germinate-import-climate.html">Climate data</a>
-    - <a href="cli/Germinate-import-group.html">Groups</a>
-    - <a href="cli/Germinate-import-image.html">Images</a>
-    - <a href="cli/Germinate-import-pedigree.html">Pedigrees</a>
-    - <a href="cli/Germinate-import-geotiff.html">Geotiffs</a>
-    - <a href="cli/Germinate-import-shapefile.html">Shapefiles</a>
+      - <a href="{{ '/docs/cli/Germinate-import-genotype-excel.html' | relative_url }}">Excel format</a>
+      - <a href="{{ '/docs/cli/Germinate-import-genotype-excel.html' | relative_url }}">Excel format transposed</a>
+      - <a href="{{ '/docs/cli/Germinate-import-genotype-hapmap.html' | relative_url }}">Hapmap format</a>
+      - <a href="{{ '/docs/cli/Germinate-import-genotype-flat.html' | relative_url }}">Flat text file format</a>
+    - <a href="{{ '/docs/cli/Germinate-import-climate.html' | relative_url }}">Climate data</a>
+    - <a href="{{ '/docs/cli/Germinate-import-group.html' | relative_url }}">Groups</a>
+    - <a href="{{ '/docs/cli/Germinate-import-image.html' | relative_url }}">Images</a>
+    - <a href="{{ '/docs/cli/Germinate-import-pedigree.html' | relative_url }}">Pedigrees</a>
+    - <a href="{{ '/docs/cli/Germinate-import-geotiff.html' | relative_url }}">Geotiffs</a>
+    - <a href="{{ '/docs/cli/Germinate-import-shapefile.html' | relative_url }}">Shapefiles</a>
 
 To use the Germinate CLI, you will need to be able to access the `germinate-<VERSION>.jar` file in the deployed application. If you are using Docker, this will be within the Docker container under `/usr/local/tomcat/webapps/ROOT/WEB-INF/lib`. If you're not using Docker, it will be located under `<TOMCAT_DIRECTORY>/webapps/<YOUR_INSTANCE_NAME>/WEB-INF/lib`.
 
