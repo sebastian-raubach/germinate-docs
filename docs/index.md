@@ -28,7 +28,7 @@ standards to provide a common architecture and high performance web-based user i
 analytics functionality across a wide variety of data types including: passport, phenotypic,
 field trial, pedigree, genetic, climatic, geographic location data as well as user-submitted
 annotations. In addition, it provides links to an expanding variety of external visualization
-and analysis tools such as [Helium](https://ics.hutton.ac.uk/helium) for pedigree visualization,
+and analysis tools such as [Helium](https://helium.hutton.ac.uk) for pedigree visualization,
 [Flapjack](https://ics.hutton.ac.uk/flapjack) for graphical genotyping and
 [CurlyWhirly](https://ics.hutton.ac.uk/curlywhirly) for 3D coordinate data.
 

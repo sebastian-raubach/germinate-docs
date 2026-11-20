@@ -8,9 +8,9 @@ Germinate is optimized to store and query large-scale molecular marker datasets 
 
 ## Supported Structures
 
-* **Markers:** Named genetic loci (e.g., SNPs, SSRs) associated with specific marker types.
-* **Maps:** Chromosome or linkage group assignments with physical (bp) or genetic (cM) positions.
-* **Genotype Matrices:** Compressed storage of allele calls across thousands of germplasm lines and markers.
+* **Markers**: Named genetic loci (e.g., SNPs, SSRs) associated with specific marker types.
+* **Maps**: Chromosome or linkage group assignments with physical (bp) or genetic (cM) positions.
+* **Genotype Matrices**: Compressed storage of allele calls across thousands of germplasm lines and markers.
 
 ## Integration with Flapjack
 

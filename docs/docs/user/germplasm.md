@@ -19,7 +19,7 @@ The Multi-Crop Passport Descriptors (MCPD) provide a standardized baseline of "p
 - **Biological status and lineage**: Whether the material is wild, cultivated, or bred, along with basic background on its origin or ancestry.
 - **Data exchange compatibility**: A uniform structure that allows genebanks and global portals to share and aggregate collection records reliably.
 
-## Passport Page
+## Passport Page {#passport}
 
 Germinate's passport page is the central location where all information about a specific germplasm connects together. It is here that you can find out everything there is to know about this germplasm as well as where to find phenotypic and genotypic data related to it. There are also links to other resources that may have more information about this germplasm.
 
@@ -47,8 +47,17 @@ The same data can also be visualized as a radar plot for a selection of the trai
 
 Whether you are just browsing Germinate to see what data is available or if you're looking for a specific list of germplasm, Germinate allows you to add any selection of germplasm to a list. This list can then be used at a later point in data visualizations or data exports to only consider the material of interest. There are multiple ways in which germplasm (or markers and locations) can be added to a user's list:
 
-- **Table marking**: 
-- **Selection in charts**: 
-- **Providing a list of identifiers**: 
+- **Table marking**: Tables that allow item marking (tables showing data for germplasm, markers or locations) have a column at the end that allows marking items. The table column header can be used to bulk mark items currently visible in the table.
+- **Selection in charts**: Some of the visualizations allow selection of data points. When items are selected, the overflow menu icon in the top right corner (`⋮`) can be clicked to show options for adding/removing the current selection to/from the marked item list.
+- **Providing a list of identifiers**: If you already know which items you would like to add to the marked item list, you can either use the table filtering and select the `In set` comparison method or use the `Mark based on identifier` button in the marked item area of tables (top right).
 
 ## Pedigree Data
+
+A plant pedigree is a documented lineage - often represented as a family tree or breeding record - that tracks the parentage, ancestry, and genetic crosses of a plant cultivar or breeding line across generations. Breeders and researchers use pedigrees to predict how desirable traits (such as disease resistance, yield, drought tolerance, or flavour) are inherited, map genetic diversity, select promising parents for future crosses, and verify variety identity or intellectual property rights.
+
+Germinate can store pedigree data in two forms:
+
+- **Pedigree definitions**: A string (text) representation of the full pedigree in a certain notation (e.g. Purdy or Lamacraft).
+- **Pedigree structure**: A hierarchical graph representation of the pedigree which allows for interactive exploration in tools like [Helium](https://helium.hutton.ac.uk).
+
+Pedigree data can be exported via the main menu and following dataset selection or can be previewed for a specific germplasm on the [Passport page](#passport).

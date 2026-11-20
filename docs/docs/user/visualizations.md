@@ -8,9 +8,9 @@ Germinate provides built-in visual analytics to explore relationships across pas
 
 ## Available Views
 
-* **Geographic Maps:** Cluster and filter collecting sites or trial locations on interactive world maps.
-* **Trait Distributions:** Boxplots, histograms, and scatter plots comparing trait performance across trials or subgroups.
-* **Matrix & Heatmap Views:** Visual summaries of data completeness and multi-trait correlations.
+* **Geographic Maps**: Cluster and filter collecting sites or trial locations on interactive world maps.
+* **Trait Distributions**: Boxplots, histograms, and scatter plots comparing trait performance across trials or subgroups.
+* **Matrix & Heatmap Views**: Visual summaries of data completeness and multi-trait correlations.
 
 ## Export Formats
 

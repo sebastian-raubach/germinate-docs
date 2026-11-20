@@ -8,9 +8,9 @@ Data enters Germinate through standardized Excel/tab-delimited templates or prog
 
 ## Template Workflow
 
-1. **Download Template:** Obtain the relevant `.xlsx` template (Germplasm, Trials, Genotypes, or Climate) from the Germinate interface.
-2. **Populate Columns:** Fill required fields (marked in bold/required headers) using controlled vocabularies.
-3. **Validate & Upload:** Germinate runs automated integrity checks to flag missing accessions, invalid dates, or duplicate entries before committing records to the database.
+1. **Download Template**: Obtain the relevant `.xlsx` template (Germplasm, Trials, Genotypes, or Climate) from the Germinate interface.
+2. **Populate Columns**: Fill required fields (marked in bold/required headers) using controlled vocabularies.
+3. **Validate & Upload**: Germinate runs automated integrity checks to flag missing accessions, invalid dates, or duplicate entries before committing records to the database.
 
 ## BrAPI Support
 

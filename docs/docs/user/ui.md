@@ -60,6 +60,13 @@ Quick searching a table means filtering multiple columns which may contain the s
 ![Germplasm Data Table Quick Search Filter]({{ '/assets/images/ui/table-quick-search-filter.png' | relative_url }})
 <p class="image-caption">Germplasm Data Table Quick Search Filter: The actual filter that's automatically put together.</p>
 
+### Item marking
+
+Germplasm, markers and locations can be added to user-specific lists while exploring Germinate. This mechanism allows you to search for and select only the items you are interested in. The marked item list can later be used to highlight these items in visualizations or to download data for just this subset. To add or remove items from a list, tables that show data for germplasm, markers or locations have a column at the end that has a toggle per entry. The header for this column allows marking of all elements currently visible in the table (after filtering has been applied). So if you are looking for specific elements, search and filter the table down to the items of interest, then select them using the last column (or the header) to add them to the list. The number of items currently on the list is displayed in the top right hand side of the table.
+
+![Germplasm Data Table Item Marking]({{ '/assets/images/ui/table-marking.png' | relative_url }})
+<p class="image-caption">Germplasm Data Table Item Marking: Marking items in a table.</p>
+
 ## Visualizations
 
 Another big part of Germinate's functionality are various kinds of visualizations. These come in various shapes and forms, but they share some very common principles:
